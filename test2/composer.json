@@ -1,0 +1,20 @@
+{
+    "name": "undefinedzain/excel-validate",
+    "description": "Avana backend test only",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Akhmad Romadlon Zainur Rofiq",
+            "email": "masterzera111@gmail.com"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.15"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        },
+        "classmap": ["src/types"]
+    }
+}
